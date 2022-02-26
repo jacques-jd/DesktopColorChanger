@@ -1,0 +1,18 @@
+﻿<Window x:Class="DesktopColorChanger.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DesktopColorChanger"
+        mc:Ignorable="d"
+        Title="Registry Colors Editor" Height="385" Width="371"
+        xmlns:xctk="http://schemas.xceed.com/wpf/xaml/toolkit" Loaded="Window_Loaded">
+    <Grid>
+        <ComboBox x:Name="cboField" HorizontalAlignment="Left" Margin="69,12,0,0" VerticalAlignment="Top" Width="120" SelectionChanged="cboField_SelectionChanged"/>
+        <Label x:Name="lblField" Content="Option" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="50" HorizontalContentAlignment="Right"/>
+        <Label x:Name="lblValue" Content="Color" HorizontalAlignment="Left" Margin="10,37,0,0" VerticalAlignment="Top" HorizontalContentAlignment="Right" Width="50"/>
+        <xctk:ColorPicker x:Name="clrPicker" SelectedColorChanged="ClrPcker_Background_SelectedColorChanged" Height="24" VerticalAlignment="Top" HorizontalAlignment="Left" Width="120" Margin="69,40,0,0"></xctk:ColorPicker>
+        <Button x:Name="btnSet" Content="Set" HorizontalAlignment="Left" Margin="194,13,0,0" VerticalAlignment="Top" Width="94" Click="btnSet_Click"/>
+        <Button x:Name="btnReset" Content="Reset to default" HorizontalAlignment="Left" Margin="194,41,0,0" VerticalAlignment="Top" Click="btnReset_Click"/>
+    </Grid>
+</Window>
