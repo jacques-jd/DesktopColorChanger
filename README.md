@@ -25,7 +25,7 @@ It is currently in early stages of development.
 - Visual examples to clarify what you're changing
 
 - "Reset all" button
-- 
+
 # Notes
 
 This program is not complete. It works, but you need to either reboot or relog your computer for the changes to come into effect. Make sure you know what the setting does before you change it.
