@@ -1,4 +1,3 @@
-DesktopColorChanger
 # Introduction
 
 Remember the "Windows Color and Appearance" section in Windows 7 control panel?
